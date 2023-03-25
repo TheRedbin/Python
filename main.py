@@ -1,4 +1,5 @@
 user_option = input("¿Piedra, Papel o Tijera? -> ")
+user_option = user_option.capitalize()
 computer_option = "Papel"
 
 if user_option == computer_option:
